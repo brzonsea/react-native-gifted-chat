@@ -298,7 +298,7 @@ class GiftedChat extends React.Component {
     if (this._messageContainerRef === null) {
       return;
     }
-    this._messageContainerRef.scrollToEnd({ animated });
+    this._messageContainerRef.scrollToEnd({ animated: true });
   }
 
 
